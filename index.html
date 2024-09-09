@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Document</title>
+</head>
+<body id = "container">
+    <h1>Consulta datos sobre un campeón de League of Legends</h1>
+  
+    <input type="text"  name="input_summoner" id="input_summoner">
+    
+    <button id="button_search" onclick="obtenerValorInputNombre() + obtenerNombre()" >Buscar</button>
+
+    <div id="summoner-information">
+        <h3>información del campeón</h3>
+        <div id="show-info"></div>
+        
+    </div>
+</body>
+</html>

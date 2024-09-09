@@ -1,0 +1,77 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(1, 10, 19);
+    align-items: center;
+    font-family: 'Beaufort';
+    color: rgb(200, 155, 60);
+    text-shadow: black;
+    
+}
+
+#input_summoner{
+    width: 70%;
+    height: 30px;
+    font-size: x-large;
+    padding-left: 15px;
+    border-style: solid;
+    border-color: rgb(200, 155, 60);
+    background-color: rgb(1, 10, 19);
+    color: aliceblue;
+    font-family: 'Beaufort-light'
+}
+
+
+
+#button_search{
+    width: 30%;
+    height: 30px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: rgb(200, 155, 60);
+    margin-top: 15px;
+    font-size: larger;
+    font-family: 'Beaufort';
+}
+
+#summoner-information{
+    width: 80%;
+    height: 300px;
+    border-color: rgb(200, 155, 60);
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+    
+    
+}
+
+#show-info{
+    width: 80%;
+    height: 80%;
+    font-size: 16px;
+    color: rgb(240, 230, 210);
+}
+h1{
+    font-family: 'Beaufort';
+    color: rgb(200, 155, 60);
+    text-align: center;
+}
+h2{
+    font-family: 'Beaufort';
+    color: rgb(189, 152, 71);
+    text-align: center;
+}
+h3{
+    font-family: 'Beaufort-light';
+    color: rgb(240, 230, 210);
+}
+@font-face {
+    font-family: 'Beaufort';
+    src: url(./BeaufortForLoL-TTF/BeaufortforLOL-Bold.ttf);
+}
+@font-face {
+    font-family: 'Beaufort-light';
+    src: url(./BeaufortForLoL-TTF/BeaufortforLOL-Heavy.ttf);
+}
